@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 200px;
+    background: #f4f4f4;
+    padding-top: 0;
+    
+}
+
+header {
+    background:#2c3e50;
+    color: indianred;
+    padding: 1em;
+    text-align: center;
+    border-radius: 15px 0 15px;
+}
+
+main {
+    background-color: rgb(228, 168, 58);
+    padding: 1em;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 30px;
+    color: #2c3e50;
+}
+
+label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+   font-size: 20px;
+}
+
+input[type="text"], input[type="textarea"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 10px;
+    height: 30px;
+}
+
+button {
+    background: blue;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+button:hover {
+    background: #555;
+}
+
+#resumeOutput {
+    margin-top: 2em;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+#resumeContent h3 {
+    margin: 0;
+}
+
+#resumeContent p {
+    margin: 0.5em 0;
+}
+h1{
+    color: rgb(73, 223, 123);
+}
+.expDesc{
+    border-radius: 10px;
+}
+h2{
+    font-size: 30px;
+  text-align: center;
+}
